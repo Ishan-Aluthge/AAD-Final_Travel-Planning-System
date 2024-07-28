@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="User_MicroService" />
+        <module name="Authenticate_MicroService" />
+        <module name="Hotel_MicroService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authenticate_micro_service" target="17" />
+      <module name="hotel_micro_service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Authenticate_MicroService" options="-parameters" />
+      <module name="Hotel_MicroService" options="-parameters" />
+      <module name="User_MicroService" options="-parameters" />
+      <module name="authenticate_micro_service" options="-parameters" />
+      <module name="hotel_micro_service" options="-parameters" />
+    </option>
+  </component>
+</project>

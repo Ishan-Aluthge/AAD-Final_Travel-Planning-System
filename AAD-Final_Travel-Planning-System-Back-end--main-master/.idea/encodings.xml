@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Authenticate MicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Guide MicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Guide MicroService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Hotel MicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Hotel MicroService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Travel MicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Travel MicroService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/User MicroService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/User MicroService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Vehicle MicroService/src/main/java" charset="UTF-8" />
+  </component>
+</project>

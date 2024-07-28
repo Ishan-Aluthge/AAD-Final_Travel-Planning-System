@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AAD-Final_Travel-Planning-System-Back-end--main.iml" filepath="$PROJECT_DIR$/.idea/AAD-Final_Travel-Planning-System-Back-end--main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Authenticate MicroService/Authenticate_MicroService.iml" filepath="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Authenticate MicroService/Authenticate_MicroService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Guide MicroService/Guide_MicroService.iml" filepath="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Guide MicroService/Guide_MicroService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Hotel MicroService/Hotel_MicroService.iml" filepath="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Hotel MicroService/Hotel_MicroService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Travel MicroService/Travel_MicroService.iml" filepath="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Travel MicroService/Travel_MicroService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/User MicroService/User_MicroService.iml" filepath="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/User MicroService/User_MicroService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Vehicle MicroService/Vehicle_MicroService.iml" filepath="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Vehicle MicroService/Vehicle_MicroService.iml" />
+    </modules>
+  </component>
+</project>

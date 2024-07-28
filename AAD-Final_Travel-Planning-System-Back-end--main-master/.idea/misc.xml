@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Authenticate MicroService" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/User MicroService/pom.xml" />
+        <option value="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Guide MicroService/pom.xml" />
+        <option value="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Hotel MicroService/pom.xml" />
+        <option value="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Travel MicroService/pom.xml" />
+        <option value="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Vehicle MicroService/pom.xml" />
+        <option value="$PROJECT_DIR$/AAD-Final_Travel-Planning-System-Back-end--main/Authenticate MicroService/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17 (2)" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

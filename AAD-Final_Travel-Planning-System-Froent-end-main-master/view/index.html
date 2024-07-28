@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Management System</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--font awosome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--custom css link-->
+    <link rel="stylesheet" href="Asstes\files\Css.css">
+</head>
+<body>
+<!--Header Section Start-->
+<header>
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>N</span>ext<br><span>T</span>ravel</a>
+    <!--nav bar-->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#destination">Destination</a>
+        <a href="#package">Package</a>
+        <a href="#service">Service</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#book">Book</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="icon">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search Here">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+
+<!--Login form Container-->
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="enter your email" id="loginemail">
+        <input type="password" class="box" placeholder="enter your password" id="loginpassword">
+        <input type="submit" value="login now" class="btn" id="login">
+        <input type="checkbox"id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a> </p>
+        <p>don't have account? <a href="#">register now</a> </p>
+    </form>
+</div>
+<!--Header Section End-->
+
+<!--Home section start-->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Adventure is worthwhile</h3>
+        <p>discover new place with us , adventure awaits</p>
+        <a href="#" class="btn">Discore More</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" datasrc="/Asstes/video/vid-1.mp4"></span>
+        <span class="vid-btn" datasrc="/Asstes/video/vid-2.mp4"></span>
+        <span class="vid-btn" datasrc="/Asstes/video/vid-3.mp4"></span>
+        <span class="vid-btn" datasrc="/Asstes/video/vid-4.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="/Asstes/video/vid-1.mp4" id="video-silder" loop muted autoplay></video>
+    </div>
+    <h2></h2>
+</section>
+
+<!--Home section end-->
+
+<!--Destination section Start-->
+
+<secttion class="destination" id="destination">
+    <h1 class="heading">
+        <span>D</span>
+        <span>e</span>
+        <span>s</span>
+        <span>t</span>
+        <span>i</span>
+        <span>n</span>
+        <span>a</span>
+        <span>t</span>
+        <span>i</span>
+        <span>o</span>
+        <span>n</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="/Asstes/image/img-colombo.jpg" alt="img">
+            <div class="content">
+                <h3>Colombo</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-nilaweli.jpg" alt="img">
+            <div class="content">
+                <h3>Trincomalee</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-gallejpg.jpg" alt="img">
+            <div class="content">
+                <h3>Galle</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-anuradhapura.jpg" alt="img">
+            <div class="content">
+                <h3>Anuradhapura</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-kandy.jpg" alt="img">
+            <div class="content">
+                <h3>Kandy</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-nuwaraeliya.jpg" alt="img">
+            <div class="content">
+                <h3>Nuwaraeliya</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-hikkaduwa.jpg" alt="img">
+            <div class="content">
+                <h3>Hikkaduwa</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-sigiriya.jpg" alt="img">
+            <div class="content">
+                <h3>Sigiriya</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-mirissa.jpg" alt="img">
+            <div class="content">
+                <h3>Mirissa</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-ninearch.jpg" alt="img">
+            <div class="content">
+                <h3>Ella</h3>
+                <p>orem ipsum dolor sit amet, consectetur adipisicin quef wdcfc</p>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </div>
+    </div>
+</secttion>
+
+<!--Destination section end-->
+
+<!--Package section start-->
+
+<section class="package" id="package">
+
+    <h1 class="heading">
+        <span>P</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    
+    <div class="box-container">
+        <div class="box">
+            <img src="/Asstes/image/img-gallejpg.jpg" alt="galle">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Galle</h3>
+                <p>Lorem jnfiwef ascinfief asdinedin qwdin2efdnjnfiwef ascinfief asdinedin qwdin2efdn</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs.50000 <span>Rs.65000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-ninearch.jpg" alt="galle">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Nine Arch</h3>
+                <p>Lorem jnfiwef ascinfief asdinedin qwdin2efdnjnfiwef ascinfief asdinedin qwdin2efdn </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs.40000 <span>Rs.50000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-nilaweli.jpg" alt="nilaweli">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Trincomalee</h3>
+                <p>Lorem jnfiwef ascinfief asdinedin qwdin2efdn jnfiwef ascinfief asdinedin qwdin2efdn</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">Rs.70000 <span>Rs.85000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-sigiriya.jpg" alt="sigiriya">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Sigiriya</h3>
+                <p>Lorem jnfiwef ascinfief asdinedin qwdin2efdn jnfiwef ascinfief asdinedin qwdin2efdn</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Rs.50000 <span>Rs.65000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-anuradhapura.jpg" alt="anuradhapura">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Anuradhapura</h3>
+                <p>Lorem jnfiwef ascinfief asdinedin qwdin2efdn jnfiwef ascinfief asdinedin qwdin2efdn</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Rs.50000 <span>Rs.65000</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-colombo.jpg" alt="colombo">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Colombo</h3>
+                <p>Lorem jnfiwef ascinfief asdinedin qwdin2efdn jnfiwef ascinfief asdinedin qwdin2efdn</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">Rs.5000 <span>Rs.6500</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Package section end-->
+
+<!--Service section start-->
+
+<section class="service" id="service">
+
+    <h1 class="heading">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable Hotels</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Aut blanditiis, consectetur, consequuntur dolorem et eum facilis ipsum iste labore laboriosam maxime minima, nulla quibusdam quidem saepe sed sint ut veniam.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Foods and Beverages</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Aut blanditiis, consectetur, consequuntur dolorem et eum facilis ipsum iste labore laboriosam maxime minima, nulla quibusdam quidem saepe sed sint ut veniam.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safty Guide</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Aut blanditiis, consectetur, consequuntur dolorem et eum facilis ipsum iste labore laboriosam maxime minima, nulla quibusdam quidem saepe sed sint ut veniam.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Aut blanditiis, consectetur, consequuntur dolorem et eum facilis ipsum iste labore laboriosam maxime minima, nulla quibusdam quidem saepe sed sint ut veniam.</p>
+        </div>
+    </div>
+</section>
+
+<!--Service section end-->
+
+<!--Gallery section start-->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="/Asstes/image/img-colombo.jpg" alt="img">
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-nilaweli.jpg" alt="img">
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-gallejpg.jpg" alt="img">
+        </div>
+        <div class="box">
+            <img src="/Asstes/image/img-anuradhapura.jpg" alt="img">
+        </div>
+    </div>
+</section>
+
+<!--Gallery section end-->
+
+<!--Book section Start-->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>B</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="/Asstes/image/img-book.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputbox">
+                <h3>How Many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputbox">
+                <h3>arrivals</h3>
+                <input type="date" >
+            </div>
+            <div class="inputbox">
+                <h3>Leaving</h3>
+                <input type="date" >
+            </div>
+            <input type="submit" class="btn" value="Book Now">
+        </form>
+    </div>
+</section>
+
+<!--Book section end-->
+
+<!--review section start-->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="/Asstes/image/pic-1.jpg" alt="">
+                    <h3>Johnathan malcam</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Aut blanditiis, consectetur, consequuntur dolorem et eum facilis ipsum iste labore laboriosam maxime minima, nulla quibusdam quidem saepe sed sint ut veniam.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="/Asstes/image/pic-2.jpg" alt="">
+                    <h3>Alex wiliam</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Aut blanditiis, consectetur, consequuntur dolorem et eum facilis ipsum iste labore laboriosam maxime minima, nulla quibusdam quidem saepe sed sint ut veniam.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="/Asstes/image/pic-3.jpg" alt="">
+                    <h3>fredy john</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Aut blanditiis, consectetur, consequuntur dolorem et eum facilis ipsum iste labore laboriosam maxime minima, nulla quibusdam quidem saepe sed sint ut veniam.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--review section end-->
+
+<!--contact section start-->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="/Asstes/image/img-contact.jpg" alt="contact">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Contact">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn"value="Send Message">
+        </form>
+    </div>
+</section>
+<!--conatct section end-->
+
+<!--Footer section start-->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Aut blanditiis, consectetur,</p>
+        </div>
+        <div class="box">
+            <h3>branch location</h3>
+            <a href="#">kaluthra</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">Destination</a>
+            <a href="#">Package</a>
+            <a href="#">Service</a>
+            <a href="#">Gallery</a>
+            <a href="#">Book</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instragram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+        </div>
+    </div>
+
+
+</section>
+
+<!--Footer section end-->
+<script src="/Asstes/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--custom js link-->
+<script src="/Asstes/files/js.js"></script>
+<script type="module" src="/Asstes/files/controller/UserserviceController.js"></script>
+<script type="module" src="/Asstes/files/controller/travelserciveController.js"></script>
+<script type="module" src="/Asstes/files/controller/GuideserviceController.js"></script>
+<script type="module" src="/Asstes/files/controller/vehicleserviceCOntroller.js"></script>
+<script type="module" src="/Asstes/files/controller/HotelserviceController.js"></script>
+</body>
+</html>

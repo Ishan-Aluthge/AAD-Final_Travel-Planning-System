@@ -1,0 +1,7 @@
+# Project exclude paths
+/AAD-Final_Travel-Planning-System-Back-end--main/Authenticate MicroService/target/
+/AAD-Final_Travel-Planning-System-Back-end--main/Guide MicroService/target/
+/AAD-Final_Travel-Planning-System-Back-end--main/Hotel MicroService/target/
+/AAD-Final_Travel-Planning-System-Back-end--main/Travel MicroService/target/
+/AAD-Final_Travel-Planning-System-Back-end--main/User MicroService/target/
+/AAD-Final_Travel-Planning-System-Back-end--main/Vehicle MicroService/target/
